@@ -1,4 +1,4 @@
-import { BallCanvas } from './Card';
+import {BallCanvas} from './Ball.jsx'
 import { technologies } from './Technologies';
 
 

@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import Tech from './components/Technologies.jsx'
 import Navbar from './components/Navbar'
-import Computer from './components/Computer'
+
 import Hero from './components/Hero.jsx'
 import About from './components/About.jsx'
+import Contact from './components/Contact.jsx'
+import Profiles from './components/Profiles.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +16,9 @@ function App() {
       <Navbar />
       <Hero/>
       <Tech />
-      <About/>
+      <Profiles/>
+      <About />
+      <Contact/>
       
      
     </div>
